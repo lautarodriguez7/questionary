@@ -2,7 +2,7 @@ import React from 'react'
 
 const button = () => {
     return (
-        <div>
+        <div className='btn'>
             <button 
             className='btn-explore'
             >

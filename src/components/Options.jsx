@@ -1,9 +1,9 @@
 import React from 'react'
 
-const options = () => {
+const options = (props) => {
     return (
-        <div>
-             <input type="radio" />
+        <div className='options'>
+             <input type="radio"/> {props.options}
         </div>
     )
 }

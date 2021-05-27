@@ -8,10 +8,12 @@ const questionary = () => {
         <div className='questionary'>
             <Title />
             <br />
-            <Options />
-            <Options />
-            <Options />
-            <Options />
+            <Options 
+                options='To jjob search with confidence and get hired'
+            />
+            <Options options='To grow my network or manage my reputation'/>
+            <Options options='To find leads more effectively'/>
+            <Options options='To find and hire talent faster' />
             <hr />
             <Button />
         </div>
