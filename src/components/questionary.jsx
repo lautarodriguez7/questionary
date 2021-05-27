@@ -1,15 +1,19 @@
 import React from 'react'
 import Options from './Options'
+import Button from './Button'
+import Title from './Title'
 
 const questionary = () => {
     return (
         <div className='questionary'>
-            <h3>Probando</h3>
+            <Title />
             <br />
             <Options />
             <Options />
             <Options />
             <Options />
+            <hr />
+            <Button />
         </div>
     )
 }
