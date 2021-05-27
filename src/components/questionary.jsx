@@ -9,11 +9,18 @@ const questionary = () => {
             <Title />
             <br />
             <Options 
-                options='To jjob search with confidence and get hired'
+                options='To job search with confidence and get hired'
             />
-            <Options options='To grow my network or manage my reputation'/>
-            <Options options='To find leads more effectively'/>
-            <Options options='To find and hire talent faster' />
+            <Options 
+            options='To grow my network or manage my reputation'
+            />
+            <Options 
+            options='To find leads more effectively'
+            />
+            <Options 
+            options='To find and hire talent faster' 
+            />
+            
             <hr />
             <Button />
         </div>
