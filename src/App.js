@@ -1,5 +1,5 @@
 import './App.css';
-import Questionary from './components/questionary'
+import Questionary from './components/Questionary'
 
 function App() {
   return (
